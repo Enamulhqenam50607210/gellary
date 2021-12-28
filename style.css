@@ -1,0 +1,31 @@
+*{
+	padding: 0;
+	margin:  0;
+	box-sizing: border-box;
+}
+.respon{
+	columns: 4;
+	column-gap: 16px;
+}
+img{
+	width: 100%;
+	border-radius: 5px;
+}
+img:hover{
+	
+}
+.grid-images{
+
+	display: inline-block;
+	margin-bottom: 16px;
+	position: relative;
+}
+@media(max-width: 1200px){
+	.respon{
+		columns: 3;
+	}
+}@media(max-width: 992px){
+	.respon{
+		columns: 2;
+	}
+}
